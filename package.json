@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx live-server --port=3000 --open=/index.html",
     "dev": "npx live-server --port=3000 --open=/index.html --watch=.",
-    "build": "echo 'Static site - no build process needed'",
+    "build": "echo 'Build completed - static site ready'",
     "deploy": "echo 'Ready for deployment to any static hosting service'"
   },
   "keywords": [
@@ -21,6 +21,9 @@
   "license": "MIT",
   "devDependencies": {
     "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "repository": {
     "type": "git",
