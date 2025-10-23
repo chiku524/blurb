@@ -1,0 +1,30 @@
+{
+  "name": "nico-chikuji-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Nico Chikuji - Blockchain Developer",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000 --open=/index.html",
+    "dev": "npx live-server --port=3000 --open=/index.html --watch=.",
+    "build": "echo 'Static site - no build process needed'",
+    "deploy": "echo 'Ready for deployment to any static hosting service'"
+  },
+  "keywords": [
+    "portfolio",
+    "blockchain",
+    "web3",
+    "developer",
+    "defi",
+    "smart-contracts"
+  ],
+  "author": "Nico Chikuji",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/blurb.git"
+  },
+  "homepage": "https://yourusername.github.io/blurb"
+}
